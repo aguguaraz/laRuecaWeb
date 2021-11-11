@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lato', Regular;
+    background-image: url(../multimedia/backgroundGray.png);
+    background-repeat: repeat;
+}
+
+/*HEADER (MENU DE NAVEGACION)*/
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.padreLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo{
+    width: 27rem;
+    height: auto;
+    padding: 1rem 0rem 3rem 1.5rem;
+    justify-content: center;
+}
+
+nav{
+    text-align: right;
+}
+
+
+nav a{
+    font-family: 'Lato', Regular;
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+
+nav a:hover{
+    font-weight: 700;
+    color: rgb(153, 29, 29);
+}
+
+.menuPrincipal{
+    list-style: none;
+    padding: 0rem 1.5rem;
+}
+
+.menuPrincipal li{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+}
+
+/* SUBMENU */
+
+.menuPrincipal ul{
+    position: absolute;
+    display: none;
+}
+
+.menuPrincipal ul li{
+    display: block;
+}
+
+.menuPrincipal li:hover ul{
+    display: block;
+}
+
+/* FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a{
+    padding-right: 2rem;
+}
+
+/* ANTIGUO FOOTER para tener a mano
+
+footer li{
+    display: inline-block;
+    padding: 2rem 1rem;
+} */
+
+.logoCultura{
+    width: 18rem;
+    height: auto;
+}
+
+.redes{
+    width: 2.2rem;
+    height: auto;
+}
+
+
+/*INDEX margenes y bordes*/
+
+.phrase{
+    text-align: center;
+    padding: 4rem;
+    height: 40rem;
+}
+
+.obrasCartelera{
+    height: 70rem;
+    padding: 2.5rem;
+}
+
+.carouselFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carouselSize{
+    height: 50rem;
+    width: 80rem;
+    object-fit: contain;
+}
+
+.carouselImg{
+    height: 50rem;
+    width: 50rem;
+    object-fit: contain;
+    padding-top: 1.5rem;
+}
+
+.obrasCartelera h1{
+    color: white;
+    font-family: 'Lato', regular;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.ultimasNovedades{
+    height: 50rem;
+}
+
+.ultimasNovedades h1{
+    color: rgb(153, 29, 29);
+    font-family: 'Lato', regular;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.novedadesFila{
+    margin-top: 2rem;
+}
+
+.card{
+    width: 100%;
+    text-align: center;
+}
+
+.card div p{
+    text-align: justify;
+}
+
+.card:hover{
+    background-color: rgba(255, 125, 125, 0.5)
+}
+
+.novedadesBoton{
+    background: transparent;
+    color: rgb(153, 29, 29);
+    font-family: 'Lato', regular;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-color: rgb(153, 29, 29);
+}
+
+.novedadesBoton:hover{
+    background-color: rgb(153, 29, 29);
+    color: white;
+    border-color: rgb(153, 29, 29);
+}
+
+.novedadesModalHeader{
+    background-color: rgb(153, 29, 29);
+    color: white;
+    font-family: 'Lato', regular;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* CONTACTO */
+
+.container-fluid{
+    width: 100%;
+    clear: both;
+}
+
+.container-fluid input{
+    width: 50%;
+    clear: both;
+    padding: 0.2rem;
+    margin: 0.2rem 0rem;
+}
+
+.mensajeFormulario {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 4rem;
+    transition: height 1s;
+}
+
+.mensajeFormulario:focus{
+    height: 20rem ;
+    background-image: linear-gradient(135deg, rgba(218,174,174,0.5) 0%, rgba(255,255,255,0.5) 70%)
+}
+
+.botonFinal{
+    display: inline-block;
+    width: 12rem;
+}
+
+
+/* EL TEATRO */
+
+.historiaelTeatro{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+}
+.textoelTeatro{
+    width: 50%;
+    margin: 1rem 3rem;
+    padding: 1rem 3rem;
+}
+
+.textoelTeatro p{
+    font-family: 'Lato', regular;
+    font-size: 1.6rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.imgelTeatro{
+    border-radius: 3rem;
+}
+
+.staffelTeatro{
+    padding: 2rem 8rem;
+}
+
+.staffelTeatro li{
+    list-style: none;
+    font-family: 'Lato', italic;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+/* CARTELERA (v. grid)*/
+
+.cartelera img{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+#palabristas{
+    grid-area: palabristas;
+}
+#galilei{
+    grid-area: galilei;
+}
+#palomas{
+    grid-area: palomas;
+}
+#poxigamicas{
+    grid-area: poxigamicas;
+}
+#enterrada{
+    grid-area: enterrada;
+}
+#galeano{
+    grid-area: galeano;
+}
+#variete{
+    grid-area: variete;
+}
+#cabaret{
+    grid-area: cabaret;
+}
+#pan{
+    grid-area: pan;
+}
+
+.cartelera{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-areas:
+        "poxigamicas poxigamicas enterrada enterrada galeano galeano"
+        "palabristas palabristas palabristas palomas palomas palomas"
+        "variete variete pan pan cabaret cabaret"
+        ;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+
+/* CARTELERA / Fx Y TRANSICIONES */
+
+
+.cartelera img{
+    scale: 1,1;
+    transition: scale 5s;
+}
+
+.cartelera img:hover{
+    transform: scale(1.1,1.1);
+}
+
+/*
+https://www.joshwcomeau.com/animation/css-transitions/
+https://cubic-bezier.com/#.06,.84,0,1.36
+
+*/
+
+/* FORMACION */
+
+.talleresDisponibles{
+    text-align: center;
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.talleresTabla{
+    display: inline-block;
+    margin: 3rem;
+}
+
+.tallerOferta{
+    text-align: center;
+    padding: 2rem 10rem 4rem 10rem;
+}
+.nombreTaller{
+    font-family: 'Amatic SC', bold;
+    font-size: 5rem;
+}
+
+.tallerOferta img{
+    width: 56rem;
+    height: auto;
+    padding-top: 3rem;
+}
+
+/*TITULOS DE CADA PAGINA*/
+
+h1{
+    text-align: center;
+    color: rgb(153, 29, 29);
+    font-family: 'Amatic SC', bold;
+    font-size: 6.4rem;
+    font-weight: 700;
+    padding: 4rem 0rem 2rem 0rem;
+}
+
+h2{
+    font-size: 2.1rem;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+/*TABLA*/
+tr th{
+    color: #1B2F33;
+    background-color: #c79eac;
+}
+
+tr td{
+    background-color:#ebd3db;
+}
+
+.taller{
+    font-weight: bold;
+}
+
+
+/*FRASE DE HOME Y OTROS TEXTOS */
+.italica{
+    font-family: 'Lato', italic;
+    font-style: italic;
+    color:rgb(20, 20, 22);
+    font-size: 2rem;
+}
+
+.phrase h2{
+    color: rgb(153, 29, 29);
+    font-family: 'Amatic SC', bold;
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+/* Backgrounds */
+.backgroundWhite{
+    background-image: linear-gradient(135deg, rgba(218,174,174,0.5) 0%, rgba(255,255,255,0.5) 70%)
+}
+
+.backgroundRed{
+    background-color: rgb(153, 29, 29, 0.5);
+}
+
+/* MOBILE FIRST */
+
+@media only screen and (max-width: 768px){
+    .backgroundRed{
+        background-color: rgba(44, 153, 29, 0.5);
+    }
+
+    .phrase h2{
+        color: rgb(44, 153, 29);
+        font-family: 'Amatic SC', bold;
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    .ultimasNovedades h1{
+        color: rgb(44, 153, 29);
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .phrase h2{
+        color: rgb(44, 153, 29);
+        font-family: 'Amatic SC', bold;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .ultimasNovedades h2{
+        color: rgb(44, 153, 29);
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .backgroundRed{
+        background-color: rgba(153, 29, 91, 0.5);
+    }
+
+    .phrase h2{
+        color: rgb(153, 29, 91);
+        font-family: 'Amatic SC', bold;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    .ultimasNovedadesTitulo{
+        color: rgb(153, 29, 91);
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+
+    .obrasCarteleraTitulo{
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+
+    footer{
+        display: inline-block;
+    }
+}

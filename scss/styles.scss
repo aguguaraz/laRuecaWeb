@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import "vars";
+@import "header";
+@import "footer";
+@import "index";
+@import "elteatro";
+@import "formacion";
+@import "cartelera";
+@import "contacto";
+@import "mediaq";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lato', Regular;
+    background-image: url(../multimedia/backgroundGray.png);
+    background-repeat: repeat;
+    h1{
+        text-align: center;
+        color: $red-color;
+        font-family: 'Amatic SC', bold;
+        font-size: 6.4rem;
+        font-weight: 700;
+        padding: 4rem 0rem 2rem 0rem;
+    }
+}

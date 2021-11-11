@@ -1,0 +1,109 @@
+.phrase{
+    text-align: center;
+    padding: 4rem;
+    height: 40rem;
+    .phrase__h2{
+        color: $red-color;
+        font-family: 'Amatic SC', bold;
+        font-size: 6.4rem;
+        font-weight: 700;
+    }
+    .phrase__pie{
+        font-family: 'Lato', italic;
+        font-style: italic;
+        color:rgb(20, 20, 22);
+        font-size: 2rem;
+    }
+}
+
+.obrasCartelera{
+    padding: 2.5rem;
+    background-color: $transparent-red-color;
+    .obrasCartelera__titulo{
+        color: white;
+        font-family: 'Lato', regular;
+        font-size: 4rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .obrasCartelera__carousel{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .obrasCartelera__carousel__carouselSlide{
+            height: 50rem;
+            width: 80rem;
+            object-fit: contain;
+            .obrasCartelera__carousel__img{
+                height: 50rem;
+                width: 50rem;
+                object-fit: contain;
+                padding-top: 1.5rem;
+            }
+        }
+    }
+}
+
+.ultimasNovedades{
+    .ultimasNovedades__titulo{
+        color: rgb(153, 29, 29);
+        font-family: 'Lato', regular;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .ultimasNovedades__fila{
+        margin-top: 2rem;
+        .card{
+            width: 100%;
+            text-align: center;
+            .card__text{
+                text-align: justify;
+            }
+            &:hover{
+                background-color: rgba(255, 125, 125, 0.5);
+            }
+            .card__button{
+                background: transparent;
+                color: rgb(153, 29, 29);
+                font-family: 'Lato', regular;
+                font-size: 1.2rem;
+                font-weight: 600;
+                border-color: rgb(153, 29, 29);
+                &:hover{
+                    background-color: rgb(153, 29, 29);
+                    color: white;
+                    border-color: rgb(153, 29, 29);
+                }
+                
+            }
+        }
+    }
+}
+
+.modal__header{
+        background-color: rgb(153, 29, 29);
+        color: white;
+        font-family: 'Lato', regular;
+        font-size: 1.5rem;
+        font-weight: 600;
+}
+
+.modal__button{
+    background: transparent;
+    color: rgb(153, 29, 29);
+    font-family: 'Lato', regular;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-color: rgb(153, 29, 29);
+    &:hover{
+        background-color: rgb(153, 29, 29);
+        color: white;
+        border-color: rgb(153, 29, 29);
+    }
+}
+
+
+
+

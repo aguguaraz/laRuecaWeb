@@ -1,0 +1,51 @@
+#palabristas{
+    grid-area: palabristas;
+}
+#galilei{
+    grid-area: galilei;
+}
+#palomas{
+    grid-area: palomas;
+}
+#poxigamicas{
+    grid-area: poxigamicas;
+}
+#enterrada{
+    grid-area: enterrada;
+}
+#galeano{
+    grid-area: galeano;
+}
+#variete{
+    grid-area: variete;
+}
+#cabaret{
+    grid-area: cabaret;
+}
+#pan{
+    grid-area: pan;
+}
+
+.cartelera{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-areas:
+        "poxigamicas poxigamicas enterrada enterrada galeano galeano"
+        "palabristas palabristas palabristas palomas palomas palomas"
+        "variete variete pan pan cabaret cabaret"
+        ;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    .cartelera__img{
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+        scale: 1,1;
+        transition: scale 5s;
+        &:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+}

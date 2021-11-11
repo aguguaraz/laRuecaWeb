@@ -1,0 +1,39 @@
+.historiaElTeatro{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+    .historiaElTeatro__txt{
+        width: 50%;
+        margin: 1rem 3rem;
+        padding: 1rem 3rem;
+        .historiaElTeatro__txt__p{
+            font-family: 'Lato', regular;
+            font-size: 1.6rem;
+            text-align: justify;
+            line-height: 2.5rem;
+        }
+    }
+    .historiaElTeatro__img{
+        border-radius: 3rem;
+    }
+}
+
+.staffElTeatro{
+    padding: 2rem 8rem;
+    background-color: $transparent-red-color;
+    .staffElTeatro__list{
+        font-family: 'Lato', italic;
+        font-style: italic;
+        color:rgb(20, 20, 22);
+        font-size: 2rem;
+        .staffElTeatro__list__li{
+            list-style: none;
+            font-size: 1.5rem;
+            text-align: justify;
+            line-height: 2.5rem;
+        }
+    }
+}

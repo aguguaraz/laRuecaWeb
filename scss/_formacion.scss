@@ -1,0 +1,44 @@
+.talleresDisponibles{
+    text-align: center;
+    padding: 0rem 0rem 5rem 0rem;
+    .talleresDisponibles__titulo{
+        font-size: 2.1rem;
+    }
+    .talleresDisponibles__table{
+        display: inline-block;
+        margin: 3rem;
+        .talleresDisponibles__table__th{
+            color: #1B2F33;
+            background-color: #c79eac;
+        }
+        .talleresDisponibles__table__taller{
+            font-weight: bold;
+        }
+        .talleresDisponibles__table__td{
+            background-color:#ebd3db;
+        }
+    }
+}
+
+
+.tallerDescripcion-par{
+    text-align: center;
+    padding: 2rem 10rem 4rem 10rem;
+    .tallerDescripcion__titulo{
+        font-family: 'Amatic SC', bold;
+        font-size: 5rem;
+    }
+    .tallerDescripcion__p{
+        font-size: 1.4rem;
+    }
+    .tallerDescripcion__img{
+        width: 56rem;
+        height: auto;
+        padding-top: 3rem;
+    }
+}
+
+.tallerDescripcion-impar{
+    @extend .tallerDescripcion-par;
+    background-color: $transparent-red-color;
+}

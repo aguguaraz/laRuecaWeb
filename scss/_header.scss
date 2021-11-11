@@ -1,0 +1,43 @@
+.header{
+    position: sticky;
+    top: 0;
+    background-color: $transparent-white-color;
+    .header__logo{
+        width: 27rem;
+        height: auto;
+        padding: 1rem 0rem 3rem 1.5rem;
+        justify-content: center;
+    }
+    .header__nav{
+        text-align: right;
+        .header__menuPrincipal{
+            list-style: none;
+            padding: 0rem 1.5rem;
+            ul{
+                position: absolute;
+                display: none;
+                li{
+                    display: block;
+                }
+            }
+            li {
+                display: inline-block;
+                padding: 1rem 0.5rem;
+                a{
+                    font-family: 'Lato', Regular;
+                    font-weight: 400;
+                    font-size: 1.7rem;
+                    text-decoration: none;
+                    letter-spacing: 0.2rem;
+                    &:hover{
+                        font-weight: 700;
+                        color:$red-color;
+                    }
+                }
+                &:hover ul{
+                    display: block;
+                }
+            }
+        }
+    }
+}

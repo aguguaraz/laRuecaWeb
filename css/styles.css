@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .header .header__logo {
+    width: 27rem;
+    height: auto;
+    padding: 1rem 0rem 3rem 1.5rem;
+    justify-content: center; }
+  .header .header__nav {
+    text-align: right; }
+    .header .header__nav .header__menuPrincipal {
+      list-style: none;
+      padding: 0rem 1.5rem; }
+      .header .header__nav .header__menuPrincipal ul {
+        position: absolute;
+        display: none; }
+        .header .header__nav .header__menuPrincipal ul li {
+          display: block; }
+      .header .header__nav .header__menuPrincipal li {
+        display: inline-block;
+        padding: 1rem 0.5rem; }
+        .header .header__nav .header__menuPrincipal li a {
+          font-family: 'Lato', Regular;
+          font-weight: 400;
+          font-size: 1.7rem;
+          text-decoration: none;
+          letter-spacing: 0.2rem; }
+          .header .header__nav .header__menuPrincipal li a:hover {
+            font-weight: 700;
+            color: #991d1d; }
+        .header .header__nav .header__menuPrincipal li:hover ul {
+          display: block; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .footer div a {
+      padding-right: 2rem; }
+      .footer div a .footer__imgRedes {
+        width: 2.2rem;
+        height: auto; }
+  .footer .footer__logoCultura {
+    width: 18rem;
+    height: auto; }
+
+.phrase {
+  text-align: center;
+  padding: 4rem;
+  height: 40rem; }
+  .phrase .phrase__h2 {
+    color: #991d1d;
+    font-family: 'Amatic SC', bold;
+    font-size: 6.4rem;
+    font-weight: 700; }
+  .phrase .phrase__pie {
+    font-family: 'Lato', italic;
+    font-style: italic;
+    color: #141416;
+    font-size: 2rem; }
+
+.obrasCartelera {
+  padding: 2.5rem;
+  background-color: rgba(153, 29, 29, 0.5); }
+  .obrasCartelera .obrasCartelera__titulo {
+    color: white;
+    font-family: 'Lato', regular;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .obrasCartelera .obrasCartelera__carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .obrasCartelera .obrasCartelera__carousel .obrasCartelera__carousel__carouselSlide {
+      height: 50rem;
+      width: 80rem;
+      object-fit: contain; }
+      .obrasCartelera .obrasCartelera__carousel .obrasCartelera__carousel__carouselSlide .obrasCartelera__carousel__img {
+        height: 50rem;
+        width: 50rem;
+        object-fit: contain;
+        padding-top: 1.5rem; }
+
+.ultimasNovedades .ultimasNovedades__titulo {
+  color: #991d1d;
+  font-family: 'Lato', regular;
+  font-size: 4rem;
+  font-weight: 700; }
+
+.ultimasNovedades .ultimasNovedades__fila {
+  margin-top: 2rem; }
+  .ultimasNovedades .ultimasNovedades__fila .card {
+    width: 100%;
+    text-align: center; }
+    .ultimasNovedades .ultimasNovedades__fila .card .card__text {
+      text-align: justify; }
+    .ultimasNovedades .ultimasNovedades__fila .card:hover {
+      background-color: rgba(255, 125, 125, 0.5); }
+    .ultimasNovedades .ultimasNovedades__fila .card .card__button {
+      background: transparent;
+      color: #991d1d;
+      font-family: 'Lato', regular;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-color: #991d1d; }
+      .ultimasNovedades .ultimasNovedades__fila .card .card__button:hover {
+        background-color: #991d1d;
+        color: white;
+        border-color: #991d1d; }
+
+.modal__header {
+  background-color: #991d1d;
+  color: white;
+  font-family: 'Lato', regular;
+  font-size: 1.5rem;
+  font-weight: 600; }
+
+.modal__button {
+  background: transparent;
+  color: #991d1d;
+  font-family: 'Lato', regular;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-color: #991d1d; }
+  .modal__button:hover {
+    background-color: #991d1d;
+    color: white;
+    border-color: #991d1d; }
+
+.historiaElTeatro {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 5rem; }
+  .historiaElTeatro .historiaElTeatro__txt {
+    width: 50%;
+    margin: 1rem 3rem;
+    padding: 1rem 3rem; }
+    .historiaElTeatro .historiaElTeatro__txt .historiaElTeatro__txt__p {
+      font-family: 'Lato', regular;
+      font-size: 1.6rem;
+      text-align: justify;
+      line-height: 2.5rem; }
+  .historiaElTeatro .historiaElTeatro__img {
+    border-radius: 3rem; }
+
+.staffElTeatro {
+  padding: 2rem 8rem;
+  background-color: rgba(153, 29, 29, 0.5); }
+  .staffElTeatro .staffElTeatro__list {
+    font-family: 'Lato', italic;
+    font-style: italic;
+    color: #141416;
+    font-size: 2rem; }
+    .staffElTeatro .staffElTeatro__list .staffElTeatro__list__li {
+      list-style: none;
+      font-size: 1.5rem;
+      text-align: justify;
+      line-height: 2.5rem; }
+
+.talleresDisponibles {
+  text-align: center;
+  padding: 0rem 0rem 5rem 0rem; }
+  .talleresDisponibles .talleresDisponibles__titulo {
+    font-size: 2.1rem; }
+  .talleresDisponibles .talleresDisponibles__table {
+    display: inline-block;
+    margin: 3rem; }
+    .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__th {
+      color: #1B2F33;
+      background-color: #c79eac; }
+    .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__taller {
+      font-weight: bold; }
+    .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__td {
+      background-color: #ebd3db; }
+
+.tallerDescripcion-par, .tallerDescripcion-impar {
+  text-align: center;
+  padding: 2rem 10rem 4rem 10rem; }
+  .tallerDescripcion-par .tallerDescripcion__titulo, .tallerDescripcion-impar .tallerDescripcion__titulo {
+    font-family: 'Amatic SC', bold;
+    font-size: 5rem; }
+  .tallerDescripcion-par .tallerDescripcion__p, .tallerDescripcion-impar .tallerDescripcion__p {
+    font-size: 1.4rem; }
+  .tallerDescripcion-par .tallerDescripcion__img, .tallerDescripcion-impar .tallerDescripcion__img {
+    width: 56rem;
+    height: auto;
+    padding-top: 3rem; }
+
+.tallerDescripcion-impar {
+  background-color: rgba(153, 29, 29, 0.5); }
+
+#palabristas {
+  grid-area: palabristas; }
+
+#galilei {
+  grid-area: galilei; }
+
+#palomas {
+  grid-area: palomas; }
+
+#poxigamicas {
+  grid-area: poxigamicas; }
+
+#enterrada {
+  grid-area: enterrada; }
+
+#galeano {
+  grid-area: galeano; }
+
+#variete {
+  grid-area: variete; }
+
+#cabaret {
+  grid-area: cabaret; }
+
+#pan {
+  grid-area: pan; }
+
+.cartelera {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-template-areas: "poxigamicas poxigamicas enterrada enterrada galeano galeano" "palabristas palabristas palabristas palomas palomas palomas" "variete variete pan pan cabaret cabaret";
+  padding: 0rem 1.5rem 0rem 1.5rem; }
+  .cartelera .cartelera__img {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    scale: 1,1;
+    transition: scale 5s; }
+    .cartelera .cartelera__img:hover {
+      transform: scale(1.1, 1.1); }
+
+.container-fluid {
+  width: 100%;
+  clear: both; }
+  .container-fluid .form .form__label {
+    font-family: 'Lato', Regular;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: #991d1d;
+    text-align: center; }
+  .container-fluid .form .form__input {
+    width: 50%;
+    clear: both;
+    padding: 0.2rem;
+    margin: 0.2rem 0rem; }
+  .container-fluid .form .form__textarea {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 4rem;
+    transition: height 1s; }
+    .container-fluid .form .form__textarea:focus {
+      height: 20rem;
+      background-image: linear-gradient(135deg, rgba(218, 174, 174, 0.5) 0%, rgba(255, 255, 255, 0.5) 70%); }
+  .container-fluid .form .form__button {
+    display: inline-block;
+    width: 12rem; }
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 60.5%; } }
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 57.5%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', Regular;
+  background-image: url(../multimedia/backgroundGray.png);
+  background-repeat: repeat; }
+  body h1 {
+    text-align: center;
+    color: #991d1d;
+    font-family: 'Amatic SC', bold;
+    font-size: 6.4rem;
+    font-weight: 700;
+    padding: 4rem 0rem 2rem 0rem; }
