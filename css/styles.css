@@ -180,13 +180,16 @@
     font-size: 2.1rem; }
   .talleresDisponibles .talleresDisponibles__table {
     display: inline-block;
-    margin: 3rem; }
+    margin: 3rem;
+    padding: 1rem; }
     .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__th {
+      font-size: 1.7rem;
       color: #1B2F33;
       background-color: #c79eac; }
     .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__taller {
       font-weight: bold; }
     .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__td {
+      font-size: 1.7rem;
       background-color: #ebd3db; }
 
 .tallerDescripcion-par, .tallerDescripcion-impar {
@@ -276,13 +279,85 @@
     display: inline-block;
     width: 12rem; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   html {
-    font-size: 60.5%; } }
+    font-size: 60.5%; }
+  .footer {
+    padding: 1rem 2rem; }
+    .footer .footer__logoCultura {
+      width: 15rem;
+      height: auto; }
+  .phrase {
+    padding: 2rem; }
+    .phrase .phrase__h2 {
+      font-size: 5.8rem; }
+  .obrasCartelera {
+    padding: 0rem; }
+    .obrasCartelera .obrasCartelera__titulo {
+      font-size: 3rem; }
+  .obrasCartelera__carousel .obrasCartelera__carousel__carouselSlide .obrasCartelera__carousel__img {
+    padding-top: 0.0rem;
+    padding-bottom: 2rem; }
+  .ultimasNovedades .ultimasNovedades__titulo {
+    font-size: 3rem; }
+  .title--elteatro {
+    font-size: 6rem; }
+  .historiaElTeatro {
+    display: inline; }
+    .historiaElTeatro .historiaElTeatro__txt {
+      width: 80%; }
+      .historiaElTeatro .historiaElTeatro__txt .historiaElTeatro__txt__p {
+        font-size: 1.3rem; }
+    .historiaElTeatro .historiaElTeatro__img {
+      width: 95%; }
+  .title--cartelera {
+    font-size: 6rem; }
+  .cartelera {
+    display: inline; }
+    .cartelera .cartelera__img {
+      padding: 0.5rem 0rem; }
+  .title--formacion {
+    font-size: 6rem; }
+  .formacion__video {
+    width: 95%;
+    height: auto; }
+  .tallerDescripcion-par, .tallerDescripcion-impar {
+    padding: 2rem 1.4rem; }
+    .tallerDescripcion-par .tallerDescripcion__titulo, .tallerDescripcion-impar .tallerDescripcion__titulo {
+      font-size: 4rem; }
+    .tallerDescripcion-par .tallerDescripcion__img, .tallerDescripcion-impar .tallerDescripcion__img {
+      width: 100%; }
+  .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__th {
+    font-size: 1.3rem; }
+  .talleresDisponibles .talleresDisponibles__table .talleresDisponibles__table__td {
+    font-size: 1.3rem;
+    background-color: #ebd3db; }
+  .title--contacto {
+    font-size: 6rem; } }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   html {
-    font-size: 57.5%; } }
+    font-size: 57.5%; }
+  .phrase .phrase__h2 {
+    font-size: 4.4rem; }
+  .title--elteatro {
+    font-size: 5rem; }
+  .title--cartelera {
+    font-size: 5rem; }
+  .title--formacion {
+    font-size: 5rem; }
+  .title--contacto {
+    font-size: 5rem; } }
+
+@media only screen and (max-width: 320px) {
+  .footer .footer__newsletter {
+    display: none; }
+  .phrase {
+    padding: 2rem; }
+    .phrase .phrase__h2 {
+      font-size: 4rem; }
+  .talleresDisponibles {
+    display: none; } }
 
 * {
   margin: 0;

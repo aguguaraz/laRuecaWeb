@@ -7,7 +7,9 @@
     .talleresDisponibles__table{
         display: inline-block;
         margin: 3rem;
+        padding: 1rem;
         .talleresDisponibles__table__th{
+            font-size: 1.7rem;
             color: #1B2F33;
             background-color: #c79eac;
         }
@@ -15,6 +17,7 @@
             font-weight: bold;
         }
         .talleresDisponibles__table__td{
+            font-size: 1.7rem;
             background-color:#ebd3db;
         }
     }

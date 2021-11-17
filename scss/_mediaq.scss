@@ -1,15 +1,181 @@
 @media only screen and (max-width: 768px){
-
-}
-
-@media only screen and (max-width: 576px){
     html{
         font-size: 60.5%;
     }
+
+    // FOOTER
+
+    .footer{
+        padding: 1rem 2rem;
+        .footer__logoCultura{
+            width: 15rem;
+            height: auto;
+        }
+    }
+
+    // INDEX
+
+    .phrase{
+        padding: 2rem;
+        .phrase__h2{
+            font-size: 5.8rem;
+        }
+    }
+
+    .obrasCartelera{
+        padding: 0rem;
+        .obrasCartelera__titulo{
+            font-size: 3rem;
+        }
+    }
+    .obrasCartelera__carousel{
+        .obrasCartelera__carousel__carouselSlide{
+            .obrasCartelera__carousel__img{
+                padding-top: 0.0rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+    .ultimasNovedades{
+        .ultimasNovedades__titulo{
+            font-size: 3rem;
+        }
+    }
+
+    // EL TEATRO
+
+    .title--elteatro{
+        font-size: 6rem;
+    }
+
+    .historiaElTeatro{
+        display: inline;
+        .historiaElTeatro__txt{
+            width: 80%;
+            .historiaElTeatro__txt__p{
+                font-size: 1.3rem;
+            }
+        }
+        .historiaElTeatro__img{
+            width: 95%;
+        }
+    }
+
+    // CARTELERA
+
+    .title--cartelera{
+        font-size: 6rem;
+    }
+
+    .cartelera{
+        display: inline;
+        .cartelera__img{
+            padding: 0.5rem 0rem;
+        }
+    }
+
+    // FORMACION
+
+    .title--formacion{
+        font-size: 6rem;
+    }
+
+    .formacion__video{
+        width: 95%;
+        height: auto;
+    }
+
+    .tallerDescripcion-par{
+        padding: 2rem 1.4rem;
+        .tallerDescripcion__titulo{
+            font-size: 4rem;
+        }
+        .tallerDescripcion__img{
+            width: 100%;
+        }
+    }
+
+    // FORMACION / TABLA
+
+    .talleresDisponibles{
+        .talleresDisponibles__table{
+            .talleresDisponibles__table__th{
+                font-size: 1.3rem;
+            }
+            .talleresDisponibles__table__td{
+                font-size: 1.3rem;
+                background-color:#ebd3db;
+            }
+        }
+    }
+
+    // CONTACTO
+
+    .title--contacto{
+        font-size: 6rem;
+    }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 426px){
     html{
         font-size: 57.5%;
+    }
+
+    // INDEX
+
+    .phrase{
+        .phrase__h2{
+            font-size: 4.4rem;
+        }
+    }
+
+    // EL TEATRO
+
+    .title--elteatro{
+        font-size: 5rem;
+    }
+
+    // CARTELERA
+
+    .title--cartelera{
+        font-size: 5rem;
+    }
+
+    // FORMACION
+
+    .title--formacion{
+        font-size: 5rem;
+    }
+
+    // CONTACTO
+
+    .title--contacto{
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    // FOOTER
+
+    .footer{
+        .footer__newsletter{
+            display: none;
+        }
+    }
+
+    // INDEX
+
+    .phrase{
+        padding: 2rem;
+        .phrase__h2{
+            font-size: 4rem;
+        }
+    }
+
+    // FORMACION
+
+    .talleresDisponibles{
+        display: none;
     }
 }
