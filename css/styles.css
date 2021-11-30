@@ -56,8 +56,7 @@
 
 .phrase {
   text-align: center;
-  padding: 4rem;
-  height: 40rem; }
+  padding: 4rem; }
   .phrase .phrase__h2 {
     color: #991d1d;
     font-family: 'Amatic SC', bold;
@@ -120,6 +119,16 @@
         background-color: #991d1d;
         color: white;
         border-color: #991d1d; }
+    .ultimasNovedades .ultimasNovedades__fila .card .card__body {
+      height: 15rem; }
+    .ultimasNovedades .ultimasNovedades__fila .card .card__titulo {
+      font-size: 1.4rem; }
+    .ultimasNovedades .ultimasNovedades__fila .card .card__texto {
+      font-size: 1.3rem; }
+    .ultimasNovedades .ultimasNovedades__fila .card .modal__texto {
+      font-size: 1.3rem;
+      text-align: justify;
+      padding: 0rem 1.2rem; }
 
 .modal__header {
   background-color: #991d1d;
@@ -153,7 +162,7 @@
     padding: 1rem 3rem; }
     .historiaElTeatro .historiaElTeatro__txt .historiaElTeatro__txt__p {
       font-family: 'Lato', regular;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       text-align: justify;
       line-height: 2.5rem; }
   .historiaElTeatro .historiaElTeatro__img {
@@ -300,6 +309,8 @@
     padding-bottom: 2rem; }
   .ultimasNovedades .ultimasNovedades__titulo {
     font-size: 3rem; }
+  .ultimasNovedades .ultimasNovedades__fila .card .card__body {
+    height: 23rem; }
   .title--elteatro {
     font-size: 6rem; }
   .historiaElTeatro {
@@ -340,6 +351,8 @@
     font-size: 57.5%; }
   .phrase .phrase__h2 {
     font-size: 4.4rem; }
+  .ultimasNovedades .ultimasNovedades__fila .card .card__body {
+    height: auto; }
   .title--elteatro {
     font-size: 5rem; }
   .title--cartelera {

@@ -1,7 +1,6 @@
 .phrase{
     text-align: center;
     padding: 4rem;
-    height: 40rem;
     .phrase__h2{
         color: $red-color;
         font-family: 'Amatic SC', bold;
@@ -77,6 +76,20 @@
                     border-color: rgb(153, 29, 29);
                 }
                 
+            }
+            .card__body{
+                height: 15rem;
+            }
+            .card__titulo{
+                font-size: 1.4rem;
+            }
+            .card__texto{
+                font-size: 1.3rem;
+            }
+            .modal__texto{
+                font-size: 1.3rem;
+                text-align: justify;
+                padding: 0rem 1.2rem;
             }
         }
     }

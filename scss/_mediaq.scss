@@ -40,6 +40,13 @@
         .ultimasNovedades__titulo{
             font-size: 3rem;
         }
+        .ultimasNovedades__fila{
+            .card{
+                .card__body{
+                    height: 23rem;
+                }
+            }
+        }
     }
 
     // EL TEATRO
@@ -126,6 +133,16 @@
     .phrase{
         .phrase__h2{
             font-size: 4.4rem;
+        }
+    }
+
+    .ultimasNovedades{
+        .ultimasNovedades__fila{
+            .card{
+                .card__body{
+                    height: auto;
+                }
+            }
         }
     }
 
